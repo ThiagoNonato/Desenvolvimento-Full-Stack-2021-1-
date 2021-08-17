@@ -44,7 +44,7 @@ public class HotelDao {
             this.em.getTransaction().commit();
             return hotel;
         } catch (Exception e) {
-            throw new HotelException("A��o inesperada! Nenhuma linha foi alterada." + e.getMessage());
+            throw new HotelException("Ação inesperada! Nenhuma linha foi alterada." + e.getMessage());
         }
     }
 
@@ -56,7 +56,7 @@ public class HotelDao {
             this.em.getTransaction().commit();
             return hotel;
         } catch (Exception e) {
-            throw new HotelException("A��o inesperada! Nenhuma linha foi excluída." + e.getMessage());
+            throw new HotelException("Ação inesperada! Nenhuma linha foi excluída." + e.getMessage());
         }
     }
 }
