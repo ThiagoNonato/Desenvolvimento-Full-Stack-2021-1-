@@ -1,10 +1,10 @@
-package br.ufg.inf.exceptions;
+package br.ufg.inf.fs.exceptions;
 
 public class HotelException extends Exception {
 
-    private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-    public HotelException(String msg) {
-        super(msg);
-    }
+	public HotelException(String msg) {
+		super(msg);
+	}
 }
